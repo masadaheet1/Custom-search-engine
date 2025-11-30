@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoSearch - Your Smart Search Engine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="themeToggle">🌙 Dark Mode</button>
+
+    <div class="container">
+        <h1>GoSearch</h1>
+
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Search here..." autocomplete="off">
+            <button id="btnMic">🎤</button>
+            <button id="btnSearch">Search</button>
+        </div>
+
+        <ul id="suggestions" class="suggestions"></ul>
+
+        <div id="loading" class="hidden">Searching...</div>
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
