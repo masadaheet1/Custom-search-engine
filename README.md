@@ -1,4 +1,4 @@
-Overview
+Overview :
 This project is a fully custom search engine web application that allows users to search the web using text or voice commands. The UI includes auto-suggestions, a theme toggle (dark/light), and a clean center-aligned layout.
 
 Features
